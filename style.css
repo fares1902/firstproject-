@@ -1,0 +1,82 @@
+nav{
+    display: flex;
+    background-color: rgb(10, 1, 1);
+    height: 4em;
+    padding: 0 1em;
+    
+}
+a{
+    color: aliceblue;
+    font-size: x-large;
+    list-style-type: none;
+    text-align: center;
+    margin-inline: auto;
+
+}
+
+body {
+    background-image: url("images/background.jpg");
+  }
+
+
+  footer{
+
+    display: flex;
+    background-color: rgb(10, 1, 1);
+    height: 4em;
+    padding: 0 1em;
+    margin-inline: auto;
+  }
+
+h1{ margin:50px;
+    padding-left: 55%;
+    width: 10cm;
+    height: 10cm;
+    size: 10cm;
+
+}
+.T-shirt-container{
+    display: flex;
+    justify-content: space-between;
+}
+.T-shirt {
+    border: 1px solid #ccc;
+            padding: 10px;
+            width: 30%; 
+            
+}
+
+.T-shirt img {
+    max-width: 100%; 
+    height: auto;
+    
+
+}
+
+#hiddenp{
+    display: none;
+}
+
+#hiddenp2{
+    display: none;
+}
+
+#hiddenp3{
+    display: none;
+}
+.shoes-container{
+    display: flex;
+    justify-content: space-between;
+}
+.shoes {
+    border: 1px solid #ccc;
+            padding: 10px;
+            width: 30%; 
+         
+}
+.shoes img {
+    max-width: 100%; 
+    height: auto;
+    
+
+}
